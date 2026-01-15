@@ -16,4 +16,4 @@ CREATE TABLE estacionamento (
 -- modelo → modelo do veículo (ex: Gol, Civic)
 -- placa → placa do automóvel
 -- data_entrada → data no formato AAAA-MM-DD (o banco já organiza dia/mês/ano)
---horario_entrada → horário de entrada no estacionamento
+-- horario_entrada → horário de entrada no estacionamento
