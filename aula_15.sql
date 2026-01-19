@@ -1,0 +1,35 @@
+-- ADICIONANDO DADOS A TABELA "CURSOS"
+
+INSERT INTO cursos (idcurso, nome, descricao, carga, totaulas, ano) VALUES
+(1, 'Introdução à Programação', 'Fundamentos da lógica e programação', 40, 20, 2023),
+(2, 'Python Básico', 'Aprenda Python do zero', 50, 25, 2023),
+(3, 'Python para Dados', 'Análise de dados com Python', 60, 30, 2024),
+(4, 'SQL Essencial', 'Consultas básicas em banco de dados', 40, 20, 2023),
+(5, 'SQL Avançado', 'Consultas complexas e otimização', 50, 25, 2024),
+(6, 'Banco de Dados Relacional', 'Modelagem e normalização de dados', 45, 22, 2023),
+(7, 'Lógica de Programação', 'Raciocínio lógico para algoritmos', 30, 15, 2023),
+(8, 'Algoritmos em C', 'Estruturas básicas em linguagem C', 60, 30, 2024),
+(9, 'Estruturas de Dados', 'Listas, pilhas e filas', 60, 30, 2024),
+(10, 'Programação Orientada a Objetos', 'Conceitos de classes e objetos', 50, 25, 2023),
+
+(11, 'Java Básico', 'Fundamentos da linguagem Java', 50, 25, 2023),
+(12, 'Java Avançado', 'Programação Java profissional', 60, 30, 2024),
+(13, 'Desenvolvimento Web', 'Criação de sites modernos', 60, 30, 2023),
+(14, 'HTML e CSS', 'Estrutura e estilo de páginas', 40, 20, 2023),
+(15, 'JavaScript Básico', 'Programação para web interativa', 50, 25, 2024),
+(16, 'JavaScript Avançado', 'Funções avançadas e eventos', 60, 30, 2025),
+(17, 'Git e GitHub', 'Controle de versões com Git', 30, 15, 2023),
+(18, 'Engenharia de Software', 'Processos e boas práticas', 50, 25, 2024),
+(19, 'Análise de Sistemas', 'Levantamento e documentação de requisitos', 45, 22, 2023),
+(20, 'Segurança da Informação', 'Princípios de proteção digital', 40, 20, 2025),
+
+(21, 'Redes de Computadores', 'Fundamentos de redes e protocolos', 50, 25, 2023),
+(22, 'Sistemas Operacionais', 'Gerenciamento de processos e memória', 60, 30, 2024),
+(23, 'Linux Básico', 'Comandos e administração básica', 40, 20, 2023),
+(24, 'Cloud Computing', 'Fundamentos de computação em nuvem', 45, 22, 2025),
+(25, 'DevOps Básico', 'Integração e entrega contínua', 50, 25, 2025),
+(26, 'Data Science', 'Introdução à ciência de dados', 60, 30, 2024),
+(27, 'Machine Learning', 'Modelos preditivos e aprendizado', 60, 30, 2025),
+(28, 'Inteligência Artificial', 'Conceitos básicos de inteligência artificial', 50, 25, 2026),
+(29, 'Big Data', 'Processamento de grandes volumes de dados', 60, 30, 2025),
+(30, 'Ética em Tecnologia', 'Responsabilidade e ética profissional', 30, 15, 2026);
